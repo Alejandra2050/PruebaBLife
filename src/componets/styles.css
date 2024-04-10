@@ -1,0 +1,47 @@
+.container {
+    flex: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .appbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff;
+
+  }
+  
+  .appbarContent {
+    flex-grow: 1;
+
+  }
+  
+  .navbarButtons {
+    display: flex;
+  }
+  
+  .navbarButton {
+    padding: 8px 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .navbarButton.activeButton {
+    background-color: #eeca06; 
+  }
+  
+  .spacer {
+    flex-grow: 1;
+  }
+  
+  .iconButton {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
